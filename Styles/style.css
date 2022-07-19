@@ -116,7 +116,6 @@ Container-1 style
     width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-left: 183px;
 }
 .section-title{
@@ -172,4 +171,13 @@ Container-1 style
     font-size: 14px;
     color: #787885;
     margin-bottom: 0;
+}
+.more{
+    text-align: right;
+    margin-top: 50px;
+}
+.more a{
+    text-decoration: none;
+    font-size: 16;
+    color: #E02C6DDE;
 }
