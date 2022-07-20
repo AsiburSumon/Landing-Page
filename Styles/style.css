@@ -66,7 +66,7 @@ Container-1 style
     font-size: 52px;
 }
 .banner-details p{
-    font-size: 16px;
+    font-size: 2vw;
 }
 .button-style{
     background-color: #E02C6D;
@@ -197,7 +197,7 @@ Container-1 style
     align-items: center;
 }
 .future-pro-details h1{
-    font-size: 2vw;
+    font-size: 24px;
     color:#0A0826;
 }
 .future-pro-details p{
@@ -243,3 +243,75 @@ footer{
     border-radius: 100%;
     margin-left: 5px;
 }
+
+/* Media Queries */
+/*--------
+     For Mobile 
+-----------------*/
+
+@media only screen and (max-width: 688px) {
+    .navbar{
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-logo{
+        font-size: 2vw;
+    }
+    .navbar .menu{
+        display: none;
+    }
+    .container-1{
+        margin-left: 0;
+    }
+    .banner{
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+    .banner-details, .banner-img, .banner-logo1, .banner-logo2{
+        width: 100%;
+    }
+    .e-commarces{
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+    }
+    .e-commarce{
+        margin: 5px;
+        width: fit-content;
+
+    }
+    .container-3{
+        margin-left: 0;
+        width: 100%;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .collection{
+        width: 100%;
+    }
+    .collection-img{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+    }
+    .container-4{
+        margin: 0;
+    }
+    .product{
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+    .future-pro-details{
+        text-align: center;
+    }
